@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey Craft</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!--styling for background image-->
+
     <style>
         body {
             background-image: url('images/bg_website/index.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
     </style>
 </head>
@@ -26,16 +32,18 @@
         </nav>
     </header>
     <main>
+        <div class="sec_index1">
+            <section id="sec_index1">
+                <h1>Welcome, User!</h1>
+                <p>Where do you want to travel today?</p>
+                <p>Try our survey to find out!</p>
+                <a href="#index-survey">Click here!</a>
+            </section>
+        </div>
         
-        <section>
-            <h1>Welcome, User!</h1>
-            <p>Where do you want to travel today?</p>
-            <p>Try our survey to find out!</p>
-            <a href="#index-survey">Click here!</a>
-        </section>
 
         <section>
-            <h3>Introduction</h3> <br><br>
+            <h3>Introduction</h3> <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae vero nisi modi odit! Eos at dignissimos facere asperiores velit assumenda voluptatem ut, dolorum molestiae aspernatur soluta veniam similique odio.</p> <br><br>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem officia neque esse repellat ipsum mollitia. Mollitia saepe adipisci, ab quasi magni ad similique omnis, eos ex, commodi cumque accusamus dolor.</p> <br><br>
         </section>
@@ -49,12 +57,12 @@
                     <input type="radio" name="q1" value="q1o2"> Cultural heritage (e.g., museums, historical sites) <br>
                     <input type="radio" name="q1" value="q1o3"> Food spots (e.g., street food, restaurants, cafes) <br>
                     <input type="radio" name="q1" value="q1o4"> Entertainment (e.g., theme parks, nightlife, shopping malls) <br><br>
-    
+
                     <label>What is your budget range for exploring places?</label> <br>
                     <input type="radio" name="q2" value="q2o1"> Nature (e.g., beaches, waterfalls, mountains) <br>
                     <input type="radio" name="q2" value="q2o2"> Cultural heritage (e.g., museums, historical sites) <br>
                     <input type="radio" name="q2" value="q2o3"> Food spots (e.g., street food, restaurants, cafes) <br><br>
-    
+
                     <input type="submit" value="Submit your answers!">
                 </form>
             </div>

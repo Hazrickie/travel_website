@@ -1,3 +1,25 @@
 body {
-    margin: 0;
+    margin: 10px;
+}
+
+.sec_index1{
+    text-align: center;
+}
+
+#sec_index1 {
+    width: 80%;
+}
+
+#sec_index1 h1 {
+    font-family: arial;
+    width: 20px;
+    text-shadow: 
+                1px 1px 0px white,
+                -1px -1px 0px white,
+                1px -1px 0px white,
+                -1px 1px 0px white;
+}
+
+section {
+    color:aliceblue;
 }
