@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey Craft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('images/bg_website/index.png');
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,18 +26,40 @@
         </nav>
     </header>
     <main>
-        <img src="placeholder.png" alt="background-image">
-        <h1>Welcome, User!</h1>
-        <p>Where do you want to travel today?</p>
-        <p>Try our survey to find out!</p>
-        <h3>Survey</h3>
-        <form>
-            <label>What type of places do you like to explore?</label>
-            <input type="radio" name="q1" value="nature"> Nature (e.g., beaches, waterfalls, mountains) <br>
-            <input type="radio" name="q1" value="cultural"> Cultural heritage (e.g., museums, historical sites) <br>
-            <input type="radio" name="q1" value="food"> Food spots (e.g., street food, restaurants, cafes) <br>
-            <input type="radio" name="q1" value="entertainment"> Entertainment (e.g., theme parks, nightlife, shopping malls) <br>
-        </form>
+        
+        <section>
+            <h1>Welcome, User!</h1>
+            <p>Where do you want to travel today?</p>
+            <p>Try our survey to find out!</p>
+            <a href="#index-survey">Click here!</a>
+        </section>
+
+        <section>
+            <h3>Introduction</h3> <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae vero nisi modi odit! Eos at dignissimos facere asperiores velit assumenda voluptatem ut, dolorum molestiae aspernatur soluta veniam similique odio.</p> <br><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem officia neque esse repellat ipsum mollitia. Mollitia saepe adipisci, ab quasi magni ad similique omnis, eos ex, commodi cumque accusamus dolor.</p> <br><br>
+        </section>
+        
+        <section>
+            <h3>Survey</h3>
+            <div id="index-survey">
+                <form>
+                    <label>What type of places do you like to explore?</label> <br>
+                    <input type="radio" name="q1" value="q1o1"> Nature (e.g., beaches, waterfalls, mountains) <br>
+                    <input type="radio" name="q1" value="q1o2"> Cultural heritage (e.g., museums, historical sites) <br>
+                    <input type="radio" name="q1" value="q1o3"> Food spots (e.g., street food, restaurants, cafes) <br>
+                    <input type="radio" name="q1" value="q1o4"> Entertainment (e.g., theme parks, nightlife, shopping malls) <br><br>
+    
+                    <label>What is your budget range for exploring places?</label> <br>
+                    <input type="radio" name="q2" value="q2o1"> Nature (e.g., beaches, waterfalls, mountains) <br>
+                    <input type="radio" name="q2" value="q2o2"> Cultural heritage (e.g., museums, historical sites) <br>
+                    <input type="radio" name="q2" value="q2o3"> Food spots (e.g., street food, restaurants, cafes) <br><br>
+    
+                    <input type="submit" value="Submit your answers!">
+                </form>
+            </div>
+        </section>
+        
     </main>
     <footer>
         <p>&copy;2024 Journey Craft, all rights reserved.</p>
